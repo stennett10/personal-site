@@ -1,0 +1,2 @@
+baseurl: /personal-site/
+exclude: ['README.md']
