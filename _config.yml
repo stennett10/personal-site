@@ -1,7 +1,7 @@
 ### GENERAL SETTINGS ###
 
 # Site settings
-title: "c"
+title: "Josh"
 description: "A Simple portfolio, and rarely used blog."
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "/personal-site/" #important: start with /
@@ -43,8 +43,8 @@ address:
     - Some Ave, 987,
     - 23890, New York,
     - United States.
-email: hello@solidtheme.com
-tel: +34 8493-4893
+email: stennett10@gmail.com
+tel: 000000000000
 
 
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###
@@ -100,7 +100,7 @@ clients:
     img: client04.png
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+about: " ###### ABOUT TEXT ######## "
 
 # Testimonial content. Shown on Home and About page.
 testimonial:
