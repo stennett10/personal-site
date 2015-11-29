@@ -1,9 +1,10 @@
 ---
-layout: index
+layout: default
 title: Home
 permalink: /
 ---
+{% include header.html %}
 
+  {% include portfolio.html title="LATEST WORKS" limit=1 %}
 
-
-{% include portfolio.html title="LATEST WORKS" limit=1 %}
+{% include testimonial.html %}
