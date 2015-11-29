@@ -4,7 +4,7 @@
 title: "Josh"
 description: "A Simple portfolio, and rarely used blog."
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
-baseurl: "/personal-site/" #important: start with /
+baseurl: "/" #important: start with /
 url: "http://joshsten.net"
 
 # Build settings
