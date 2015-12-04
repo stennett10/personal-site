@@ -13,7 +13,7 @@
 
 
 		$(".typedStrings").typed({
-            strings: ["<something else>", "lorem ipsum", "geek"],
+            strings: ["Contributor", "Geek", "<something else>", "Team leader","Lorem ipsum",  "Gamer"],
 						contentType: 'text',
             typeSpeed: 80,
 						backSpeed: 50,
