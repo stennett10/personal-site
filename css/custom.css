@@ -35,5 +35,6 @@ div.page-content
 {
     font-weight: bold;
 
+    text-align: center;
     text-transform: uppercase;
 }
