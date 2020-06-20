@@ -1,29 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Home from './screens/home';
-import Blog from './screens/blog';
+import React from "react";
+import "./App.css";
 
-import Portfolio from './screens/portfolio';
+import SiteHeader from "./components/siteheader";
+import Navigation from "./components/navigation";
 
-import { BrowserRouter, Route } from 'react-router-dom';
-import { BreakpointProvider } from 'react-socks';
-
+import { BrowserRouter, Route } from "react-router-dom";
+import { BreakpointProvider } from "react-socks";
+import Design from "./pages/design";
+import Structure from "./pages/structure";
 function App() {
-  return (
-    
-    <BrowserRouter>
-      <BreakpointProvider>
-        <div style={{display:'flex', justifyContent:'center'}}>
-          <div style={{width: '80vw'}}> 
-            <Route exact path="/" component={Home}/>
-            <Route path="/portfolio" component={Portfolio}/>
-            <Route path="/blog" component={Blog}/>
-          </div>
-        </div>
-      </BreakpointProvider>
-    </BrowserRouter>
-  );
+    return (
+        <BrowserRouter>
+            <BreakpointProvider>
+                <div style={{ display: "flex", justifyContent: "center" }}>
+                    <div style={{ width: "80vw" }}>
+                        <SiteHeader />
+                        <Navigation />
+
+                        <Route exact path="/" component={Design} />
+                        <Route path="/structure" component={Structure} />
+                    </div>
+                </div>
+            </BreakpointProvider>
+        </BrowserRouter>
+    );
 }
 
 export default App;
